@@ -1,0 +1,1 @@
+Groups are optional, and it allows you to “group” your load script. Groups can be nested, allowing you the BDD-style of testing.

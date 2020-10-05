@@ -1,0 +1,5 @@
+HTTP Cookies are used by web sites and apps to store pieces of stateful information on the user's device. A server tells the client, 
+via a Set-Cookie HTTP header, what information it wants to be stored on the user's machine.
+
+The user's browser will store the cookie data and associate it with the hostname of the server, 
+and for each subsequent request to that hostname, it will include the stored cookie data in a Cookie header.

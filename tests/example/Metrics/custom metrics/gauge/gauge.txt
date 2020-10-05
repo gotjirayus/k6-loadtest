@@ -1,0 +1,5 @@
+Gauge is an object for representing a custom metric holding only the latest value added. It is one of the four
+
+PARAMETER	            TYPE	        DESCRIPTION
+name	                string	        The name of the custom metric.
+isTime	                boolean	        A boolean indicating whether the values added to the metric are time values or just untyped values.

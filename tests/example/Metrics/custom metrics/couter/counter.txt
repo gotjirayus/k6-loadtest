@@ -1,0 +1,4 @@
+Counter is an object for representing a custom cumulative counter metric. It is one of the four custom metric types.
+
+PARAMETER	    TYPE	    DESCRIPTION
+name	        string	    The name of the custom metric.

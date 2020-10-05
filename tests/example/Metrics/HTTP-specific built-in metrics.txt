@@ -1,0 +1,10 @@
+HTTP-specific built-in metrics
+
+METRIC NAME                     TYPE                DESCRIPTION
+http_reqs                       Counter             How many HTTP requests has k6 generated, in total.
+http_req_blocked                Trend               Time spent blocked (waiting for a free TCP connection slot) before initiating the request.
+http_req_connecting             Trend               Time spent establishing TCP connection to the remote host.
+http_req_tls_handshaking        Trend               Time spent sending data to the remote host.
+http_req_waiting                Trend               Time spent waiting for response from remote host
+http_req_receiving              Trend               Time spent receiving response data from the remote host.
+http_req_duration               Trend               Total time for the request. It's equal to http_req_sending + http_req_waiting + http_req_receiving
